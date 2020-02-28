@@ -26,6 +26,8 @@ function mostrar() {
 			flag = 1;
 		}
 
+		respuesta= prompt("Deseaseguir ingresando nros?");
+
 	}while( respuesta == 's');
 
 	document.getElementById("maximo").value= maximo;
